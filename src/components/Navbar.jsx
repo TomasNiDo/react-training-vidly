@@ -10,8 +10,8 @@ const Navbar = (props) => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
-          <li className="nav-item active">
-            <Link className="nav-link" to="/movies">Movies <span className="sr-only">(current)</span></Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="/movies">Movies</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/customers">Customers</Link>
