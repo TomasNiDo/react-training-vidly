@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
-import './App.css';
-import Navbar from './components/Navbar'
-import Movies from './components/Movies'
-import MovieDetails from './components/MovieDetails';
-import Customers from './components/Customers'
-import Rentals from './components/Rentals'
-import NotFound from './components/NotFound'
+import React, { Component } from "react";
+import { Route, Switch, Redirect } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Movies from "./components/Movies";
+import MovieDetails from "./components/MovieDetails";
+import Customers from "./components/Customers";
+import Rentals from "./components/Rentals";
+import NotFound from "./components/NotFound";
+import "./App.css";
 
 class App extends Component {
   render() {
